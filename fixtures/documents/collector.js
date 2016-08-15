@@ -11,6 +11,7 @@ var dcl = require( "dcl" );
 /**
  * A collector
  * @constructor
+ * @extends ReactClass
  */
 var CollectorBase = dcl( Destroyable, {
 	declaredClass : "CollectorBase",
